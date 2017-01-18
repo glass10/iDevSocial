@@ -50,6 +50,7 @@ class ViewController: UIViewController {
                 })
             } else {
                 print("Login Successful")
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }
         })
     }
