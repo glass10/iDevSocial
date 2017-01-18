@@ -29,6 +29,7 @@ class FeedViewController: UITableViewController {
             let loginScreen = storyboard.instantiateViewController(withIdentifier: "login")
             
             self.present(loginScreen, animated: true, completion: nil)
+            print("Logout Successful")
         } catch let error as NSError {
             print(error.localizedDescription);
         }
