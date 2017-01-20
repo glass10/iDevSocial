@@ -14,6 +14,9 @@
 		7EDFE2611E2EFA9A00492D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDFE25F1E2EFA9A00492D18 /* LaunchScreen.storyboard */; };
 		7EDFE2691E2EFD4300492D18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EDFE2681E2EFD4300492D18 /* GoogleService-Info.plist */; };
 		7EDFE26D1E2F0D0400492D18 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDFE26C1E2F0D0400492D18 /* FeedViewController.swift */; };
+		7EDFE26F1E319F9900492D18 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDFE26E1E319F9900492D18 /* PostViewController.swift */; };
+		7EDFE2711E31A96B00492D18 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDFE2701E31A96B00492D18 /* PostCell.swift */; };
+		7EDFE2731E31AAAA00492D18 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDFE2721E31AAAA00492D18 /* Post.swift */; };
 		A76F656A73A10E942130109F /* Pods_iDevSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01B01D2F70DCA337F57A231 /* Pods_iDevSocial.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +30,10 @@
 		7EDFE2601E2EFA9A00492D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EDFE2621E2EFA9A00492D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EDFE2681E2EFD4300492D18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7EDFE26C1E2F0D0400492D18 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7EDFE26C1E2F0D0400492D18 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = ../FeedViewController.swift; sourceTree = "<group>"; };
+		7EDFE26E1E319F9900492D18 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		7EDFE2701E31A96B00492D18 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		7EDFE2721E31AAAA00492D18 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		A50D9C5B34C3E7E71C375E5B /* Pods-iDevSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDevSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDevSocial/Pods-iDevSocial.release.xcconfig"; sourceTree = "<group>"; };
 		F01B01D2F70DCA337F57A231 /* Pods_iDevSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDevSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,7 +70,6 @@
 		7EDFE24A1E2EFA9A00492D18 = {
 			isa = PBXGroup;
 			children = (
-				7EDFE26C1E2F0D0400492D18 /* FeedViewController.swift */,
 				7EDFE2551E2EFA9A00492D18 /* iDevSocial */,
 				7EDFE2541E2EFA9A00492D18 /* Products */,
 				4ECECCFBEF7D84063BA53481 /* Pods */,
@@ -90,6 +95,10 @@
 				7EDFE25F1E2EFA9A00492D18 /* LaunchScreen.storyboard */,
 				7EDFE2621E2EFA9A00492D18 /* Info.plist */,
 				7EDFE2681E2EFD4300492D18 /* GoogleService-Info.plist */,
+				7EDFE26C1E2F0D0400492D18 /* FeedViewController.swift */,
+				7EDFE26E1E319F9900492D18 /* PostViewController.swift */,
+				7EDFE2701E31A96B00492D18 /* PostCell.swift */,
+				7EDFE2721E31AAAA00492D18 /* Post.swift */,
 			);
 			path = iDevSocial;
 			sourceTree = "<group>";
@@ -218,9 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EDFE26F1E319F9900492D18 /* PostViewController.swift in Sources */,
 				7EDFE2591E2EFA9A00492D18 /* ViewController.swift in Sources */,
 				7EDFE26D1E2F0D0400492D18 /* FeedViewController.swift in Sources */,
+				7EDFE2731E31AAAA00492D18 /* Post.swift in Sources */,
 				7EDFE2571E2EFA9A00492D18 /* AppDelegate.swift in Sources */,
+				7EDFE2711E31A96B00492D18 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
